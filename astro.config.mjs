@@ -11,7 +11,7 @@ export default defineConfig({
         github: "https://github.com/epam-acme-corp/media-docs",
       },
       components: {
-        SiteTitle: './src/components/OPCOSelector.astro',
+        ThemeSelect: './src/components/ThemeSelectWithOPCO.astro',
       },
       sidebar: [
         {
