@@ -10,6 +10,9 @@ export default defineConfig({
       social: {
         github: "https://github.com/epam-acme-corp/media-docs",
       },
+      components: {
+        SiteTitle: './src/components/OPCOSelector.astro',
+      },
       sidebar: [
         {
           label: "Overview",
